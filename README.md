@@ -20,3 +20,15 @@ The system follows a microservices architecture with the following components:
  . Containerization: Docker is used to containerize each microservice for easy deployment and scalability.
 
  . Security: JWT-based authentication and role-based access control (RBAC) are implemented.
+
+ # 
+
+ 1. Eureka Server (Service Discovery)
+    
+Why Eureka?
+
+Service Discovery: Eureka allows microservices to register themselves and discover other services dynamically.
+
+Load Balancing: Enables client-side load balancing using Ribbon or Spring Cloud LoadBalancer.
+
+Fault Tolerance: Integrates with Hystrix for fault tolerance.
